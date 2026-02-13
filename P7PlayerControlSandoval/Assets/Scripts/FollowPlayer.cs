@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public Vector3 offset = new Vector3(0, 5, -7);
+    public Vector3 offset = new Vector3(0, 0, 0);
     public GameObject player;
     public GameObject camera;
 
@@ -16,11 +16,11 @@ public class FollowPlayer : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            offset = new Vector3(0, 4, 8);
+            offset = new Vector3(0, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.L))
         {
-            offset = new Vector3(0, 5, -7);
+            offset = new Vector3(0, 0, 0);
         }
     }
 
